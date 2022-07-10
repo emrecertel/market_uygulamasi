@@ -47,7 +47,7 @@ while ana_menu_secim != 5:
         print(
           "\n" "Lütfen aşağıdaki hizmetlerden birini seçin:" "\n" "1. Ürün ara" "\n" "2. Sepete git" "\n""3. Satın al" "\n" "4. Oturum Kapat" "\n" "5. Çıkış yap")
         ana_menu_secim = int(input("Seçiminizi girin:"))
-      elif ürün_secim_index > i:
+      elif ürün_secim_index > i+1:
         print("Tekrar deneyin")
       else:
         tutar_input = int(input("{production} ekleniyor. Tutarı Girin:".format(
